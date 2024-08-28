@@ -6,14 +6,14 @@ function convertToBool(text, fault = 'true') {
 
 
 global.thumb = fs.readFileSync('./lib/bugs/venom.jpg')
-const BOTNAME = 'VAJIRA-MD|-WA-BOT™';
+const BOTNAME = 'hacker;
 const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
-global.owner = process.env.OWNER_NUMBER  || '94701992015' ;  // ADD YOUR NUMBER WITHOUT +
+global.owner = process.env.OWNER_NUMBER  || '923488901572' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || ' ' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=TIlGGA5J#EfZWuPUTu6BLMwfgGIR3h10RCbe9Mr4mJaZnnfJXEF4' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
-MODERATORS : process.env.MODERATORS === undefined ? "94772801923,94787820101" : process.env.MODERATORS ,    
+MODERATORS : process.env.MODERATORS === undefined ? "923488901572" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
 OWNER_NAME: process.env.OWNER_NAME || 'VAJIRA' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
